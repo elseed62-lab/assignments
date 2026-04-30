@@ -1,3 +1,41 @@
 img {
     width: 75% !important;
 }
+html {
+        body {
+            background-image: url(../img/ChallahBread.jpg);
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fff8f0;
+            color: #333;
+        }
+        header {
+            background-color: #ff7043;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .recipe {
+            background: white;
+            margin: 1rem auto;
+            padding: 1rem;
+            border-radius: 8px;
+            max-width: 50%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .recipe h3 {
+            color: #572718;
+            margin-left: 1.5rem;
+        }
+        h2 {
+            color: #ff7043;
+            text-align: center;
+            margin: 1rem auto;
+            padding: 1rem;
+
+        }
+        ul, ol {
+            margin-left: 1.5rem;
+        }
+}
