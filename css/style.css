@@ -2,14 +2,16 @@ img {
     width: 75% !important;
 }
 html {
+
         body {
-            background-image: url(../img/ChallahBread.jpg);
             background-size: cover;
             font-family: Arial, sans-serif;
             margin: 0;
             background-color: #fff8f0;
             color: #333;
+            padding: 0;
         }
+      
         header {
             background-color: #ff7043;
             color: white;
@@ -30,7 +32,7 @@ html {
             margin-left: 1.5rem;
         }
         h2 {
-            color: #ff7043;
+            color: #9b43ff;
             text-align: center;
             margin: 1rem auto;
             padding: 1rem;
@@ -39,4 +41,40 @@ html {
         ul, ol {
             margin-left: 1.5rem;
         }
+        table {
+        background-color: #ddd;
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-family: 'Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        th, td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+        }
+         th {
+        background-color: #f4f4f4;
+        color: #333;
+        }
+        tr:nth-child(even) {
+        background-color: #f9f9f9;
+         }
+         tr:hover {
+        background-color: #b3b3b3;
+        }
+        .color-icon {
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+    .planeswalker header {
+        background-color: #423ba1;
+        color: #000000;
+        padding: 1rem;
+        text-align: center; 
+    }
+ 
 }
