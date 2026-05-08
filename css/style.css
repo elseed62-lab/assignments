@@ -3,20 +3,21 @@ img {
 }
 html {
         body {
-            background-image: url(../img/ChallahBread.jpg);
             background-size: cover;
             font-family: Arial, sans-serif;
             margin: 0;
             background-color: #fff8f0;
             color: #333;
         }
+       
         header {
             background-color: #ff7043;
             color: white;
             padding: 1rem;
             text-align: center;
-        }
+        } 
         .recipe {
+            background-image: url(../img/ChallahBread.jpg);
             background: white;
             margin: 1rem auto;
             padding: 1rem;
@@ -33,9 +34,12 @@ html {
             text-align: center;
             margin: 1rem auto;
             padding: 1rem;
+        
 
         }
+        
         ul, ol {
             margin-left: 1.5rem;
         }
+        
 }
