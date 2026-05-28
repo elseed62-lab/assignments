@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/form.css">
+
+</head>
+<body>
+    <nav class="navigation">
+        <ul>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="imagemap.html">Image Map</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="../index.html">Home</a></li>
+        </ul>
+    </nav>
+    <h1>Contact Form</h1>
+    <form action="submit.php" method="post">
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" required><br>
+         <br>
+        <label for="dob">Date:</label>
+        <input type="date" id="dob" name="dob"> <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    
+    <p>What are your favorite things to collect?</p>
+    
+        <input type="checkbox" id="pokemon" name="collectibles" value="pokemon">
+        <label for="pokemon">Pokemon Cards</label><br>
+
+        <input type="checkbox" id="magic" name="collectibles" value="magic">
+        <label for="magic">Magic the Gathering Cards</label><br>
+
+        <input type="checkbox" id="baseball" name="collectibles" value="baseball">
+        <label for="baseball">Baseball Cards</label><br>
+
+        <input type="checkbox" id="comic" name="collectibles" value="comic">
+        <label for="comic">Comic Books</label><br>
+
+        <input type="checkbox" id="stamps" name="collectibles" value="stamps">
+        <label for="stamps">Stamps</label><br>
+    
+    <p>Who's your favorite pokemon?</p>
+    
+        <select id="favorite_pokemon" name="favorite_pokemon" required>
+            <option value="">--Please choose an option--</option>
+            <option value="pikachu">Pikachu</option>
+            <option value="charizard">Charizard</option>
+            <option value="mewtwo">Mewtwo</option>
+            <option value="bulbasaur">Bulbasaur</option>
+            <option value="squirtle">Squirtle</option>
+        </select>
+    
+    <p>What's your favorite Generation?</p>
+    
+        <label for="generation">Generation:</label>
+        <select id="generation" name="generation" required>
+            <option value="">--Please choose an option--</option>
+            <option value="one">Generation I</option>
+            <option value="two">Generation II</option>
+            <option value="three">Generation III</option>
+            <option value="four">Generation IV</option>
+            <option value="five">Generation V</option>
+            <option value="six">Generation VI</option>
+            <option value="seven">Generation VII</option>
+            <option value="eight">Generation VIII</option>
+        </select>
+    
+
+    <p>Rate this form:</p>
+    
+        <input type="radio" id="excellent" name="rating" value="excellent">
+        <label for="excellent">Excellent</label><br>
+
+        <input type="radio" id="good" name="rating" value="good">
+        <label for="good">Good</label><br>
+
+        <input type="radio" id="average" name="rating" value="average">
+        <label for="average">Average</label><br>
+
+        <input type="radio" id="poor" name="rating" value="poor">
+        <label for="poor">Poor</label><br>
+        <input type="radio" id="terrible" name="rating" value="terrible">
+        <label for="terrible">Terrible</label><br>
+    
+    <p>How likely are you to recommend this form to a friend?</p>
+    
+        <input type="radio" id="very_likely" name="recommendation" value="very_likely">
+        <label for="very_likely">Very Likely</label><br>
+
+        <input type="radio" id="likely" name="recommendation" value="likely">
+        <label for="likely">Likely</label><br>
+
+        <input type="radio" id="neutral" name="recommendation" value="neutral">
+        <label for="neutral">Neutral</label><br>
+
+        <input type="radio" id="unlikely" name="recommendation" value="unlikely">
+        <label for="unlikely">Unlikely</label><br>
+
+        <input type="radio" id="very_unlikely" name="recommendation" value="very_unlikely">
+        <label for="very_unlikely">Very Unlikely</label><br>
+    
+
+<feedback>Do you have any additional feedback?</feedback><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
+
+    <input type="submit" id="Submit">
+    <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
